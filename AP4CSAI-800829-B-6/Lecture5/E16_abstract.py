@@ -1,12 +1,11 @@
-import abc
+import abc  # Abstract base class support
 
-class Piece(abc.ABC):
+class Piece(abc.ABC):  # Abstract class (cannot be instantiated)
     def __init__(self, set, color, shape):
         self.chess_set = set
         self.color = color
         self.shape = shape
     
-    @abc.abstractmethod
+    @abc.abstractmethod  # Must be implemented by subclasses
     def move(self, board, to):
-        pass
-
+        pass  # No implementation here
