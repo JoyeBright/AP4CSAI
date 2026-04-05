@@ -1,3 +1,7 @@
-Advanced Programming for CSAI
+## Advanced Programming for CSAI
 
-I added the advanced OOP materials, part 1, under "Lecture 5" https://github.com/JoyeBright/AP4CSAI/blob/main/AP4CSAI-800829-B-6/Lecture5
+### Update Log
+
+#### Lecture 5 – Advanced OOP (Part 1)
+
+The materials for Advanced Object-Oriented Programming (Part 1) have been added. See here: https://github.com/JoyeBright/AP4CSAI/blob/main/AP4CSAI-800829-B-6/Lecture5
