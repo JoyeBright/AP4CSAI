@@ -1,11 +1,11 @@
 import math
 
 class Point:
-    def move(self, x, y) -> None:
+    def move(self, x, y):
         self.x = x
         self.y = y
 
-    def reset(self) -> None:
+    def reset(self):
         self.move(0.0, 0.0)
 
     def calculate_distance(self, other):
