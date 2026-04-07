@@ -22,14 +22,14 @@ print(p2.x, p2.y)
 # Class attributes are defined in the class body
 # They are shared by all instances of the class
 
-class Test:
-    x = 0
-    y = 10
+# class Test:
+#     x = 0
+#     y = 10
 
-t1 = Test()
-t2 = Test()
+# t1 = Test()
+# t2 = Test()
 
-t1.x = 5  # creates an instance attribute for t1 only
+# t1.x = 5  # creates an instance attribute for t1 only
 
-print(t1.x)  # 5  (instance attribute)
-print(t2.x)  # 0  (still class attribute)
+# print(t1.x)  # 5  (instance attribute)
+# print(t2.x)  # 0  (still class attribute)
