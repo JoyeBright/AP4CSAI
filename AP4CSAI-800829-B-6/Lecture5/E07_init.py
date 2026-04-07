@@ -1,22 +1,23 @@
-from __future__ import annotations
 import math
 
 # Define a Point class with position and distance behavior
 class Point:
-    def __init__(self, x: float, y: float) -> None:
+    
+    # Constructor: initialize a new Point with x and y
+    def __init__(self, x, y):
         self.move(x, y)
 
     # Move the point to a new location
-    def move(self, x: float, y: float) -> None:
+    def move(self, x, y):
         self.x = x
         self.y = y
 
     # Reset the point to the origin (0, 0)
-    def reset(self) -> None:
+    def reset(self):
         self.move(0.0, 0.0)
 
     # Compute the distance to another Point object
-    def calculate_distance(self, other: Point) -> float:
+    def calculate_distance(self, other):
         return math.hypot(self.x - other.x, self.y - other.y)
     
 
