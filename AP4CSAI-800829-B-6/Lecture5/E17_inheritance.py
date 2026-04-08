@@ -8,3 +8,4 @@ class Pawn(Piece):  # Pawn inherits from Piece
 class Rook(Piece):  # Rook inherits from Piece
     def move(self, board, to):
         print("Rook moves in straight lines")
+        
