@@ -12,7 +12,6 @@ The materials for Advanced Object-Oriented Programming (Part 2) are now availabl
 You can access them here:  
 https://github.com/JoyeBright/AP4CSAI/blob/main/AP4CSAI-800829-B-6/Lecture6
 
----
 
 ---
 
