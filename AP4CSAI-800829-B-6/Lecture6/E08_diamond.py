@@ -40,8 +40,8 @@ class Professor(Person):
 class TA(Student, Professor):
     def __init__(self, name, university_id, student_number, employee_id):
         print("TA.__init__ called")
-        Student.__init__(self, name, university_id, student_number)
-        Professor.__init__(self, name, university_id, employee_id)
+        super().__init__(self, name, university_id, student_number, employee_id)
+        # Professor.__init__(self, name, university_id, employee_id)
 
     def get_role(self):
         return "I am a teaching assistant."

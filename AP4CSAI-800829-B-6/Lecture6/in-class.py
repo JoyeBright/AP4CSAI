@@ -1,0 +1,2 @@
+import E03_multi_inheritance_syntax
+

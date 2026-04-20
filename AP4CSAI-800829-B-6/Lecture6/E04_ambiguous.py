@@ -12,3 +12,5 @@ class C(B, A):
 obj = C()
 obj.show()
 
+print(C.mro())
+

@@ -37,7 +37,7 @@ class Professor(Person):
 # Variation C – change the constructor
 class TA(Student, Professor):
     def __init__(self, name, university_id, student_number, employee_id):
-        Student.__init__(self, name, university_id, student_number)
+        super.__init__(self, name, university_id, student_number)
         Professor.__init__(self, name, university_id, employee_id)
 
     def get_role(self):

@@ -10,7 +10,10 @@ class C(A, B):
     def showC(self):
         print("Class C (Derived from A and B)")
 
-obj = C()
-obj.showA()
-obj.showB()
-obj.showC()
+
+if __name__ =="__main__":
+    obj = C()
+    obj.showA()
+    obj.showB()
+    obj.showC()
+
