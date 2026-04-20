@@ -8,5 +8,3 @@ class Person(ABC):
    @abstractmethod
    def get_role(self):
        pass
-
-p = Person("Javad", 23232)

@@ -34,6 +34,4 @@ class Professor(Person):
     def get_role(self):
         return "I am a professor!"
     
-P = Professor("Javad", 121233, 78787)
-print(P.study())
     

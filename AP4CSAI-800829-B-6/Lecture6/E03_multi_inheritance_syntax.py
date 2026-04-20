@@ -11,9 +11,9 @@ class C(A, B):
         print("Class C (Derived from A and B)")
 
 
-if __name__ =="__main__":
-    obj = C()
-    obj.showA()
-    obj.showB()
-    obj.showC()
+
+obj = C()
+obj.showA()
+obj.showB()
+obj.showC()
 
