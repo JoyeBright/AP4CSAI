@@ -5,6 +5,15 @@
 
 ---
 
+### Lecture 7 – Advanced OOP & Design Patterns (Part 2)
+
+The materials for Advanced OOP and Design Pattern are now available.
+
+You can access them here:  
+https://github.com/JoyeBright/AP4CSAI/blob/main/AP4CSAI-800829-B-6/Lecture7
+
+---
+
 ### Lecture 6 – Advanced OOP (Part 2)
 
 The materials for Advanced Object-Oriented Programming (Part 2) are now available.
