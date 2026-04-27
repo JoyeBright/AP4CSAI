@@ -23,7 +23,7 @@ m3 = ImageClassifier("CNN")
 #     elif isinstance(model, ImageClassifier):
 #         return model.get_role()
 
-# Polymorphism
+# Duck-typing polymorphism
 
 def print_role(model):
     return model.get_role()
