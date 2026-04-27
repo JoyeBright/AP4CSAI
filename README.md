@@ -5,7 +5,7 @@
 
 ---
 
-### Lecture 7 – Advanced OOP & Design Patterns (Part 2)
+### Lecture 7 – Advanced OOP & Design Patterns
 
 The materials for Advanced OOP and Design Pattern are now available.
 
