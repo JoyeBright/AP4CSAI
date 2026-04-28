@@ -15,7 +15,6 @@ class Factory:
         if key not in self._tokens:
             print (f"Creating shared token: {key}")
             self._tokens[key] = Flyweight(key, self._next_id)
-            print(self._tokens)
             self._next_id +=1
         else:
             print(f"Reusing shared token: {key}")
